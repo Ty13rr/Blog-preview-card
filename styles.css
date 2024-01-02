@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "figtree", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 16px;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.container {
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.card {
+  height: auto;
+  background-color: hsl(0, 0%, 100%);
+  border: 2px solid hsl(0, 0%, 7%);
+  box-shadow: 5px 5px;
+  border-radius: 18px;
+  text-align: left;
+  margin: 0.1em;
+  padding-top: 20px;
+}
+
+.card .main {
+  display: flex;
+  margin: auto;
+  max-width: 90%;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.learning {
+  border: 1px solid hsl(47, 88%, 63%);
+  background-color: hsl(47, 88%, 63%);
+  max-width: fit-content;
+  border-radius: 5px;
+  margin: 20px 20px -10px;
+}
+
+.learning p {
+  font-size: 13px;
+  padding: 5px 10px;
+  font-weight: 800;
+}
+
+.text {
+  padding: 22px 20px;
+}
+
+.text h3 {
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+
+.text h2 {
+  padding-bottom: 20px;
+}
+
+.text p {
+  color: hsl(0, 0%, 50%);
+  padding-bottom: 20px;
+}
+
+.foot {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot .avatar {
+  max-width: 30px;
+  padding-right: 10px;
+}
+
+.foot h4 {
+  font-size: 14px;
+}
